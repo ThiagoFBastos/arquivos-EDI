@@ -2,6 +2,9 @@
 ./explorer -bd <arquivo> : cria uma árvore de diretórios a partir de <arquivo>
 
 a descrição de um arquivo ou pasta é : [D|T|B]/path/d/dd-mm-yy/hh:mm
+	D: diretório
+	T: arquivo de texto
+	B: arquivo binário
 
 cd <path>
 	Abre a pasta com o caminho informado <path>
@@ -11,6 +14,10 @@ mkdir <path>
 
 mkfile <path> <type>
 	Cria um arquivo do tipo <type> no diretório <path>
+	<type> pode ser:
+		D: diretório
+		T: arquivo de texto
+		B: arquivo binário
 
 rm <path>
 	Deleta a pasta ou arquivo no diretório <path>
@@ -29,6 +36,9 @@ swp <path> <type>
 
 prop <path>
 	Exibe as propriedades do arquivo ou diretório <path>
+
+prop
+	Exibe as propriedades do diretório atual
 
 mv <pathfrom> <pathto>
 	Move um arquivo ou diretório <pathfrom> para o <pathto>
