@@ -1,0 +1,41 @@
+
+./explorer -bd <arquivo> : cria uma árvore de diretórios a partir de <arquivo>
+
+a descrição de um arquivo ou pasta é : [D|T|B]/path/d/dd-mm-yy/hh:mm
+
+cd <path>
+	Abre a pasta com o caminho informado <path>
+
+mkdir <path>
+	Cria a pasta no diretório <path>
+
+mkfile <path> <type>
+	Cria um arquivo do tipo <type> no diretório <path>
+
+rm <path>
+	Deleta a pasta ou arquivo no diretório <path>
+
+ls <path>
+	Lista as pastas e arquivos no diretório <path>
+
+search <keyword>
+	Lista as pastas ou arquivos com prefixo <keyword>
+
+rename <path> <new_name>
+	Renomeia a pasta ou arquivo <path> para <new_name>
+
+swp <path> <type>
+	Altera o tipo do arquivo ou pasta <path> para <type>
+
+prop <path>
+	Exibe as propriedades do arquivo ou diretório <path>
+
+mv <pathfrom> <pathto>
+	Move um arquivo ou diretório <pathfrom> para o <pathto>
+
+clear
+	Limpa a janela
+
+exit
+	Termina o programa
+
